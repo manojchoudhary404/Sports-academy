@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+body{
+
+margin:0%;
+padding:0%;
+background:#151a20;
+font-family:sans-serif;
+background-image: url(PngItem_1155153.png);
+
+}
+
+.container{
+    
+width:1280px;
+
+margin:50px auto 0;
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+}
+.container .box{
+position:relative;
+width:300px;
+height:400px;
+background:rgb(24, 24, 21);
+margin:10px;
+box-sizing:border-box;
+
+
+}
+.container .box .imgBox
+{
+background-size:cover;
+position:relative;
+overflow:hidden;
+}
+.container .box .imgBox img
+{
+max-width:190%;
+
+
+ transition: transform 2s;
+
+}
+.container .box:hover .imgBox img
+{
+transform:scale(1.2);
+}
+
+.container .box .details
+{
+position:absolute;
+top:10px;
+left:10px;
+bottom:10px;
+right:10px;
+background:rgba(0,0,0,.8);
+transform:scaleY(0);
+transition:transform .5s;
+}
+
+.container .box:hover .details{
+transform:scaleY(1);
+
+}
+
+
+.container .box .details .content
+{
+position:absolute;
+top:60%;
+
+text-align:center;
+padding:15px;
+Color:#fff;
+}
+
+.container .box .details .content h2 {
+margin:0;
+padding:0;
+font-size:20px;
+Color:#ff0;
+}
+.container .box .details .content p{
+margin:10px 0 0;
+padding:0;
+
+}
+a{
+color:rgb(55, 184, 189);
+padding:25px;
+text-decoration:none;
+}
+new{
+padding:10px 5px;
+background-color:silver;
+border-radius:5px;
+color:black;
+font-style:italic;
+font-size:20px;
+text-decoration:none;
+align-self: left;
+}
+new:hover{
+background-color:#7995b3;
+}
+
+
+
+
+</style>
+</head>
+<body>
+<a href="index.html" id="new">Home</a>
+<div class="container">
+<div class="box">
+
+<div class="imgBox">
+<img src="ft1.png">
+</div>
+<div class="details">
+<div class="content">
+<a href="videoback.html">FootBall</a>
+<p> a famous sport</p>
+</div>
+
+</div>
+</div>
+<div class="box"><div class="imgBox">
+<img src="vb.jpeg">
+</div>
+<div class="details">
+<div class="content">
+<a href="finalvolley_videol.html">Volley Ball</a>
+<p> an interesting sport</p>
+</div>
+
+</div></div>
+<div class="box">
+<div class="imgBox">
+<img src="bm.jpeg">
+</div>
+<div class="details">
+<div class="content">
+<a href="final_badminton.html">Badminton</a>
+<p> a lovely sport</p>
+</div>
+
+</div>
+
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="ck.jpeg">
+</div>
+<div class="details">
+<div class="content">
+<a href="image.png">Cricket</a>
+<p> a passionable sport</p>
+</div>
+
+</div>
+</div>
+<div class="box"><div class="imgBox">
+<img src="hk.jpeg">
+</div>
+<div class="details">
+<div class="content">
+<a href="final_hockey.html">Hockey</a>
+<p> our national sport</p>
+</div>
+
+</div></div>
+<div class="box"><div class="imgBox">
+<img src="bk.jpeg">
+</div>
+<div class="details">
+<div class="content">
+<a href="final_basket.html">Basket Ball</a>
+<p> a famous sport</p>
+</div>
+
+</div></div>
+<div class="box"><div class="imgBox">
+<img src="gym.jpg">
+</div>
+<div class="details">
+<div class="content">
+<a href="final_cricket.html">GYM</a>
+<p> an interesting sport </p>
+</div>
+
+</div></div>
+<div class="box"><div class="imgBox">
+<img src="tn.jpeg">
+</div>
+<div class="details">
+<div class="content">
+<a href= "final_hockey.html">tennis </a>
+<p> a creative sport</p>
+</div>
+
+</div></div>
+</div>
+</body>
+</html>
